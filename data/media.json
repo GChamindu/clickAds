@@ -1,21 +1,62 @@
 {
-  "home": [
-    {
-      "url": "/images/home/image1.jpg",
-      "alt": "Welcome to our experience",
-      "type": "image"
-    },
-    {
-      "url": "/images/home/image2.jpg",
-      "alt": "Discover something amazing",
-      "type": "image"
-    },
-    {
-      "url": "/images/home/image3.jpg",
-      "alt": "Start your journey",
-      "type": "image"
-    }
-  ],
+ "home": [
+  {
+    "url": "/images/home/img1.jpg",
+    "alt": "Welcome to our experience",
+    "type": "image"
+  },
+  {
+    "url": "/images/home/img2.jpg",
+    "alt": "Discover something amazing",
+    "type": "image"
+  },
+  {
+    "url": "/images/home/img3.jpg",
+    "alt": "Start your journey",
+    "type": "image"
+  },
+  {
+    "url": "/images/home/img4.jpg",
+    "alt": "Explore more moments",
+    "type": "image"
+  },
+  {
+    "url": "/images/home/img5.jpg",
+    "alt": "Capture the vibe",
+    "type": "image"
+  },
+  {
+    "url": "/images/home/img6.jpg",
+    "alt": "Feel the connection",
+    "type": "image"
+  },
+  {
+    "url": "/images/home/img7.jpg",
+    "alt": "Uncover hidden beauty",
+    "type": "image"
+  },
+  {
+    "url": "/images/home/img8.jpg",
+    "alt": "Moments to remember",
+    "type": "image"
+  },
+  {
+    "url": "/images/home/img9.jpg",
+    "alt": "The journey continues",
+    "type": "image"
+  },
+  {
+    "url": "/images/home/img10.jpg",
+    "alt": "Experience the adventure",
+    "type": "image"
+  },
+  {
+    "url": "/images/home/img11.jpg",
+    "alt": "Experience the adventure",
+    "type": "image"
+  }
+],
+
   "next": [
     {
       "url": "/images/next/image1.jpg",
