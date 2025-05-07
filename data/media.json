@@ -1,0 +1,139 @@
+{
+  "home": [
+    {
+      "url": "/images/home/image1.jpg",
+      "alt": "Welcome to our experience",
+      "type": "image"
+    },
+    {
+      "url": "/images/home/image2.jpg",
+      "alt": "Discover something amazing",
+      "type": "image"
+    },
+    {
+      "url": "/images/home/image3.jpg",
+      "alt": "Start your journey",
+      "type": "image"
+    }
+  ],
+  "next": [
+    {
+      "url": "/images/next/image1.jpg",
+      "alt": "Try something new",
+      "type": "image"
+    },
+    {
+      "url": "/images/next/image2.jpg",
+      "alt": "Explore further",
+      "type": "image"
+    },
+    {
+      "url": "/images/next/image3.jpg",
+      "alt": "Continue your journey",
+      "type": "image"
+    }
+  ],
+  "attractions": [
+    {
+      "url": "/images/attractions/image1.jpg",
+      "alt": "Attraction 1",
+      "type": "image"
+    },
+    {
+      "url": "/images/attractions/image2.jpg",
+      "alt": "Attraction 2",
+      "type": "image"
+    },
+    {
+      "url": "/images/attractions/image3.jpg",
+      "alt": "Attraction 3",
+      "type": "image"
+    },
+    {
+      "url": "/images/attractions/image4.jpg",
+      "alt": "Attraction 4",
+      "type": "image"
+    },
+    {
+      "url": "/images/attractions/image5.jpg",
+      "alt": "Attraction 5",
+      "type": "image"
+    },
+    {
+      "url": "/images/attractions/image6.jpg",
+      "alt": "Attraction 6",
+      "type": "image"
+    },
+    {
+      "url": "/images/attractions/image7.jpg",
+      "alt": "Attraction 7",
+      "type": "image"
+    },
+    {
+      "url": "/images/attractions/image8.jpg",
+      "alt": "Attraction 8",
+      "type": "image"
+    }
+  ],
+  "store": [
+    {
+      "url": "/images/store/image1.jpg",
+      "alt": "Store display 1",
+      "type": "image"
+    },
+    {
+      "url": "/images/store/image2.jpg",
+      "alt": "Store display 2",
+      "type": "image"
+    },
+    {
+      "url": "/images/store/image3.jpg",
+      "alt": "Store display 3",
+      "type": "image"
+    }
+  ],
+  "story": [
+    {
+      "url": "/videos/story/video1.mp4",
+      "alt": "Our story video 1",
+      "type": "video"
+    },
+    {
+      "url": "/videos/story/video2.mp4",
+      "alt": "Our story video 2",
+      "type": "video"
+    },
+    {
+      "url": "/videos/story/video3.mp4",
+      "alt": "Our story video 3",
+      "type": "video"
+    }
+  ],
+  "thankyou": [
+    {
+      "url": "/images/thankyou/image1.jpg",
+      "alt": "Thank you for your interest",
+      "type": "image"
+    },
+    {
+      "url": "/images/thankyou/image2.jpg",
+      "alt": "We appreciate your time",
+      "type": "image"
+    },
+    {
+      "url": "/images/thankyou/image3.jpg",
+      "alt": "Looking forward to connecting",
+      "type": "image"
+    },
+    {
+      "url": "/images/thankyou/image4.jpg",
+      "alt": "Your meeting is scheduled",
+      "type": "image"
+    },
+    {
+      "url": "/images/thankyou/image5.jpg",
+      "alt": "We'll be in touch soon",
+      "type": "image"
+    }
+  ]
+}
