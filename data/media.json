@@ -57,6 +57,19 @@
   }
 ],
 
+"homess": [
+  {
+    "url": "/images/home/image1.jpg",
+    "alt": "Welcome to our experience",
+    "type": "image"
+  },
+  {
+    "url": "/images/home/image1.jpg",
+    "alt": "Discover something amazing",
+    "type": "image"
+  }
+  
+],
   "next": [
     {
       "url": "/images/next/image1.jpg",
