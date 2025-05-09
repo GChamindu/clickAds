@@ -131,12 +131,12 @@ export default function AttractionsPage() {
           <Button variant="ghost" className="py-2 text-xs md:text-sm">
             Store
           </Button>
-          <Button variant="ghost" className="py-2 text-xs md:text-sm">
+          {/* <Button variant="ghost" className="py-2 text-xs md:text-sm">
             Videos
           </Button>
           <Button variant="ghost" className="py-2 text-xs md:text-sm">
             Schedule
-          </Button>
+          </Button> */}
         </div>
       </main>
     );

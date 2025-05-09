@@ -54,7 +54,7 @@ Phone 0770876014
 
           </p>
 
-          <Link href="/story">
+          <Link href="/">
             <Button className="bg-[#9B0067] hover:bg-[#7d0054] text-white text-lg px-8 py-6 rounded-full transition-all transform hover:scale-105 shadow-md active:scale-95 self-start">
               Video Call 
             </Button>

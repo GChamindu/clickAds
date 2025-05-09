@@ -13,8 +13,8 @@ export default function MobileNavbar() {
     { path: "/", icon: Home, label: "Home" },
     { path: "/attractions", icon: ImageIcon, label: "Gallery" },
     { path: "/store", icon: Store, label: "Store" },
-    { path: "/story", icon: Video, label: "Videos" },
-    { path: "/thank-you", icon: Calendar, label: "Schedule" },
+    // { path: "/story", icon: Video, label: "Videos" },
+    // { path: "/thank-you", icon: Calendar, label: "Schedule" },
   ]
 
   return (

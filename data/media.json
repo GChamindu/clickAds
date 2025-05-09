@@ -1,5 +1,5 @@
 {
- "homesss": [
+ "home": [
   {
     "url": "/images/home/img1.jpg",
     "alt": "Welcome to our experience",
@@ -57,7 +57,7 @@
   }
 ],
 
-"home": [
+"homxe": [
   {
     "url": "/images/home/image1.jpg",
     "alt": "Welcome to our experience",
@@ -553,18 +553,13 @@
   ],
   "story": [
     {
-      "url": "/videos/story/video1.mp4",
+      "url": "/videos/vid1.mp4",
       "alt": "Our story video 1",
       "type": "video"
     },
     {
-      "url": "/videos/story/video2.mp4",
+      "url": "/videos/vid2.mp4",
       "alt": "Our story video 2",
-      "type": "video"
-    },
-    {
-      "url": "/videos/story/video3.mp4",
-      "alt": "Our story video 3",
       "type": "video"
     }
   ],
