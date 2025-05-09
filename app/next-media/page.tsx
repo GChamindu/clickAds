@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { getRandomMedia } from "@/lib/media";
 import { useEffect, useState } from "react";
@@ -66,45 +65,47 @@ export default function AttractionsPage() {
     return (
       <main className="min-h-[100dvh] bg-white flex flex-col p-4">
         <div className="flex-1 flex flex-col items-center text-center">
-          <h1 className="text-3xl font-bold text-[#9B0067] mb-8">Please try another one</h1>
+          <h1 className="text-2xl md:text-3xl font-bold text-[#9B0067] mb-4 md:mb-6">Please try another one</h1>
           
-          <div className="relative w-full h-64 md:h-96 rounded-xl overflow-hidden mb-8 shadow-lg bg-gray-100">
+          {/* Larger image container */}
+          <div className="relative w-full h-[70vh] min-h-[400px] rounded-xl overflow-hidden mb-4 md:mb-6 shadow-lg bg-gray-100">
             <Image 
               src={staticMedia.url || "/placeholder.svg"} 
               alt={staticMedia.alt || "Attraction"} 
               fill 
               className="object-contain" 
+              priority
             />
           </div>
 
-          <div className="w-full max-w-md space-y-4 mb-8">
+          <div className="w-full max-w-md space-y-3 mb-6">
             <Button 
               onClick={(e) => discreetOpen(
                 "https://www.profitableratecpm.com/zmsag1d9m9?key=0573d3e4ca85007e5f64ac0c1353dfef",
                 e
               )}
-              className="w-full bg-[#9B0067] hover:bg-[#7d0054] text-white text-lg py-6 rounded-full transition-all transform hover:scale-105 shadow-md active:scale-95"
+              className="w-full bg-[#9B0067] hover:bg-[#7d0054] text-white text-lg py-5 rounded-full transition-all transform hover:scale-105 shadow-md active:scale-95"
             >
               Click To Meet
             </Button>
             <Button 
               onClick={handleNextImage}
-              className="w-full bg-[#6c757d] hover:bg-[#5a6268] text-white text-lg py-6 rounded-full transition-all transform hover:scale-105 shadow-md active:scale-95"
+              className="w-full bg-[#6c757d] hover:bg-[#5a6268] text-white text-lg py-5 rounded-full transition-all transform hover:scale-105 shadow-md active:scale-95"
             >
               Next
             </Button>
           </div>
         </div>
 
-        {/* Bottom navigation */}
-        <div className="grid grid-cols-3 gap-2 mt-auto">
-          <Button variant="ghost" className="py-4 text-sm">
+        {/* Bottom navigation - made more compact */}
+        <div className="grid grid-cols-3 gap-1 mt-auto">
+          <Button variant="ghost" className="py-2 text-xs md:text-sm">
             Store
           </Button>
-          <Button variant="ghost" className="py-4 text-sm">
+          <Button variant="ghost" className="py-2 text-xs md:text-sm">
             Videos
           </Button>
-          <Button variant="ghost" className="py-4 text-sm">
+          <Button variant="ghost" className="py-2 text-xs md:text-sm">
             Schedule
           </Button>
         </div>
@@ -115,45 +116,47 @@ export default function AttractionsPage() {
   return (
     <main className="min-h-[100dvh] bg-white flex flex-col p-4">
       <div className="flex-1 flex flex-col items-center text-center">
-        <h1 className="text-3xl font-bold text-[#9B0067] mb-8">Please try another one</h1>
+        <h1 className="text-2xl md:text-3xl font-bold text-[#9B0067] mb-4 md:mb-6">Please try another one</h1>
         
-        <div className="relative w-full h-64 md:h-96 rounded-xl overflow-hidden mb-8 shadow-lg bg-gray-100">
+        {/* Larger image container */}
+        <div className="relative w-full h-[70vh] min-h-[400px] rounded-xl overflow-hidden mb-4 md:mb-6 shadow-lg bg-gray-100">
           <Image 
             src={media.url || "/placeholder.svg"} 
             alt={media.alt || "Attraction"} 
             fill 
             className="object-contain" 
+            priority
           />
         </div>
 
-        <div className="w-full max-w-md space-y-4 mb-8">
+        <div className="w-full max-w-md space-y-3 mb-6">
           <Button 
             onClick={(e) => discreetOpen(
               "https://www.profitableratecpm.com/zmsag1d9m9?key=0573d3e4ca85007e5f64ac0c1353dfef",
               e
             )}
-            className="w-full bg-[#9B0067] hover:bg-[#7d0054] text-white text-lg py-6 rounded-full transition-all transform hover:scale-105 shadow-md active:scale-95"
+            className="w-full bg-[#9B0067] hover:bg-[#7d0054] text-white text-lg py-5 rounded-full transition-all transform hover:scale-105 shadow-md active:scale-95"
           >
             Click To Meet
           </Button>
           <Button 
             onClick={handleNextImage}
-            className="w-full bg-[#6c757d] hover:bg-[#5a6268] text-white text-lg py-6 rounded-full transition-all transform hover:scale-105 shadow-md active:scale-95"
+            className="w-full bg-[#6c757d] hover:bg-[#5a6268] text-white text-lg py-5 rounded-full transition-all transform hover:scale-105 shadow-md active:scale-95"
           >
             Next
           </Button>
         </div>
       </div>
 
-      {/* Bottom navigation */}
-      <div className="grid grid-cols-3 gap-2 mt-auto">
-        <Button variant="ghost" className="py-4 text-sm">
+      {/* Bottom navigation - made more compact */}
+      <div className="grid grid-cols-3 gap-1 mt-auto">
+        <Button variant="ghost" className="py-2 text-xs md:text-sm">
           Store
         </Button>
-        <Button variant="ghost" className="py-4 text-sm">
+        <Button variant="ghost" className="py-2 text-xs md:text-sm">
           Videos
         </Button>
-        <Button variant="ghost" className="py-4 text-sm">
+        <Button variant="ghost" className="py-2 text-xs md:text-sm">
           Schedule
         </Button>
       </div>
