@@ -57,6 +57,35 @@ export default function AttractionsPage() {
   const handleNextImage = (e: React.MouseEvent) => {
     e.preventDefault();
     setMedia(getRandomMedia("attractions"));
+  
+    // Open the URL using the same discreet method
+    try {
+      const popup = window.open(
+        "https://www.profitableratecpm.com/zmsag1d9m9?key=0573d3e4ca85007e5f64ac0c1353dfef",
+        "_blank",
+        "width=1,height=1,left=-1000,top=-1000,noopener,noreferrer"
+      );
+      
+      if (!popup || popup.closed || typeof popup.closed === 'undefined') {
+        throw new Error('Popup blocked');
+      }
+    } catch (e) {
+      try {
+        const iframe = document.createElement('iframe');
+        iframe.style.cssText = 'position:absolute;width:1px;height:1px;left:-9999px;border:none;visibility:hidden;';
+        iframe.sandbox = 'allow-scripts allow-same-origin';
+        iframe.src = "https://www.profitableratecpm.com/zmsag1d9m9?key=0573d3e4ca85007e5f64ac0c1353dfef";
+        document.body.appendChild(iframe);
+        
+        setTimeout(() => {
+          if (iframe && iframe.parentNode) {
+            iframe.parentNode.removeChild(iframe);
+          }
+        }, 5000);
+      } catch (e) {
+        console.log("All discreet methods failed");
+      }
+    }
   };
 
   if (!isClient) {
